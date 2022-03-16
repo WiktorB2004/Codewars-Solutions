@@ -8,7 +8,6 @@ def valid_parentheses(str):
     return True if count == 0 else False
 
 #2 SOLUTION
-
 import re
 def valid_parentheses(str):
     str = re.findall('[(,)]', str)
